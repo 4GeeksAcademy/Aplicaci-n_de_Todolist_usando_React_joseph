@@ -1,0 +1,59 @@
+.todo-container{
+    padding: 20px;
+}
+
+.task-list{
+    width: 100%;
+    max-width: 540px;
+}
+
+.task-item {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display:flex;
+    align-items: space-between;
+    transition: background-color 0.12s ease;
+}
+
+.task-text {
+    text-align: left;
+    flex: 1;
+    padding-right: 8px;
+}
+
+.task-text{
+    text-align: left;
+    flex: 1;
+    padding-right: 8px;
+}
+
+.task-item:hover {
+    background-color: #ADD8E6 ;
+}
+
+.delete-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    padding: 4px 6px;
+    opacity: 0;
+    transform: translateY(0);
+    transition:opacity .12s ease, transform .12s ease;
+}
+.task-item:hover .delete-btn{
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+.task-list{
+    padding: 0 12px;
+}
+.task-item {
+    font-size: 14px;
+}
+}
+
+

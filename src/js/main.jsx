@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
+import "/workspaces/Aplicaci-n_de_Todolist_usando_React_joseph/src/js/components/app.css"
 
 // index.css'
 import '../styles/index.css'
